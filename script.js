@@ -1,5 +1,7 @@
 function firstChar(text) {
   // your code here
+	String st = text.trim();
+	return st.length > 0 ? trimmedStr[0] : '';
 }
 
 // Do not change the code below
